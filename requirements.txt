@@ -1,0 +1,22 @@
+# DocuMind — dependencies
+# Install everything with:  pip install -r requirements.txt
+
+# --- Core framework that ties the LLM + RAG steps together ---
+langchain==0.2.16
+langchain-community==0.2.16
+
+# --- IBM watsonx.ai integration (the LLM + embedding models) ---
+langchain-ibm==0.1.12
+ibm-watsonx-ai==1.1.11
+
+# --- Vector database that stores your document chunks ---
+chromadb==0.5.5
+
+# --- Loading and splitting PDF / text files ---
+pypdf==4.3.1
+
+# --- The web user interface ---
+gradio==4.44.0
+
+# --- Reads your secret keys from the .env file ---
+python-dotenv==1.0.1

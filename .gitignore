@@ -1,0 +1,11 @@
+# Never commit your secret keys
+.env
+
+# The vector database is generated automatically — no need to track it
+vector_store/
+
+# Python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
